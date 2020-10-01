@@ -17,7 +17,7 @@ int main()
   double decimalAverage; // decimal average of integers
   int product; // product of intgers
 
-  cout << "Input three integers: "; // prompt
+  cout << "Input three integers: " << endl; // prompt
 
   cin >> number1 >> number2 >> number3; // Reads number1, number2, number3
 
@@ -52,4 +52,5 @@ int main()
     << "Largest:   " << largest << endl;
 
   std::cin.get();
+	return 0;
 }  // end main
