@@ -30,7 +30,9 @@ int main()
       --tail;
   } // end while
   std::cout << "Your string reversed is :" << myStr << std::endl;
+  return 0;
 } // end main
+
 
 void swap(char *head, char *tail) // swaps tail and head values
 {
